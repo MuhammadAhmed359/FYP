@@ -1,0 +1,34 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  #bg {
+    background-color: #0a0a0b;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 165vh; /* Adjusted height */
+    overflow: hidden;
+  }
+  #bbg{
+    background-color: #0a0a0b;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 180vh; /* Adjusted height */
+    overflow: hidden;
+  }
+  #circle {
+    background-color: #582fd1;
+    position: absolute;
+    left: 95%;
+    top: 2%;
+    width: 400px;
+    height: 400px;
+    filter: blur(240.1px);
+    border-radius: 50%;
+  }
+  

@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #statisticsbg {
+    background-color: #0a0a0b;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 180vh;
+  
+    overflow: hidden;
+  }
+  
+  #circle {
+    background-color: #582fd1;
+    position: absolute;
+    left: 95%;
+    top: 4%;
+    width: 380px;
+    height: 380px;
+    filter: blur(240.1px);
+    border-radius: 50%;
+  
+  }
+  #sbg {
+    /* border: 2px solid red; */
+    background-color: #0f0f0f;
+    position: absolute;
+    border-radius: 10px;
+    width: 75%;
+    height: 80%;
+    top: 98px;
+    left: 13px;
+    overflow: hidden;
+  }
+  #cr1{
+    background-color: #582fd1;
+    position: absolute;
+    left: 30%;
+    top: -350px;
+    width: 420px;
+    height: 420px;
+    filter: blur(320px);
+    border-radius: 50%;
+
+}
+#cr2{
+    background-color: #582fd1;
+    position: absolute;
+    left: 25%;
+    top: 120%;
+    width: 500px;
+    height: 500px;
+    filter: blur(280px);
+    border-radius: 50%;
+
+}
+#allstatbg {
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 22px;
+    width: 97%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+#s1 {
+  background-color: #222222;
+  height: 85%;
+  width: 32%;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  border: none;
+  justify-content: space-evenly;
+}
+#bar1{
+  margin-top: 20px;
+  height: 60%;
+  width: 4px; 
+  background: linear-gradient(to bottom, #f57489, #5e39ff);
+  border-radius: 10px; 
+}
+
+#spercent1{
+  color: white;
+  font-family: "Lato";
+  font-size: medium;
+  font-weight: bold;
+  /* margin-left: 10px; */
+  margin: auto;
+  margin-right: 35px;
+
+}
+
+.sg{
+    /* border: 2px solid white; */
+  width: 25%;
+  height: 100%;
+  display: flex;
+  margin-bottom: 15px;
+  margin-left: 4px;
+}
+
+#s2 {
+  background-color: #222222;
+  height: 85%;
+  width: 32%;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  border: none;
+  justify-content: space-evenly;
+
+}
+
+#bar2{
+  margin-top: 20px;
+  height: 60%;
+  width: 4px; 
+  background: linear-gradient(to bottom, blue, lightblue);
+  border-radius: 10px; 
+}
+#spercent2{
+  color: white;
+  font-family: "Lato";
+  font-size: medium;
+  font-weight: bold;
+  /* margin-left: 10px; */
+  margin: auto;
+  margin-right: 60px;
+
+}
+ 
+#s3 {
+  background-color: #222222;
+  height: 85%;
+  width: 32%;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  border: none;
+  justify-content: space-evenly;
+}
+
+#bar3{
+  margin-top: 20px;
+  height: 60%;
+  width: 4px; 
+  background: linear-gradient(to bottom, red, orange);
+  border-radius: 10px; 
+}
+#spercent3{
+  color: white;
+  font-family: "Lato";
+  font-size: medium;
+  font-weight: bold;
+  /* margin-left: 10px; */
+  margin: auto;
+  margin-right: 35px;
+
+}
+
+#statbg{
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 22px;
+    width: 97%;
+    height: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+#spiralsatabg{
+    background-color: #16151b;
+    border-radius: 10px;
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+#tpresentage{
+  /* border: 2px solid white; */
+  height: 100%;
+width: 50%;
+
+}
+#tpresentage h1{
+font-family: "Lato";
+font-size: 24px;
+font-weight: bold;
+color: #414141;
+margin-left: 25px;
+margin-top: 30px;
+}
+#tpresentage h2{
+  font-family: "Lato";
+font-size: 45px;
+font-weight: bold;
+color: white;
+margin-left: 25px;
+margin-top: 80px;
+}
+#tpresentage h3{
+  font-family: "Lato";
+  font-size: 24px;
+  font-weight: bold;
+  color: #414141;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+#allsgraph{
+  /* border: 2px solid red; */
+  height: 100%;
+  width: 50%;
+
+}
+#barstatbg{
+    background-color: #16151b;
+    border-radius: 10px;
+    width: 32%;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+}
+#linegraph{
+    /* border: 2px solid red; */
+    background-image: -moz-linear-gradient( 43deg, rgb(0,0,0) 0%, rgb(21,9,49) 100%);
+  background-image: -webkit-linear-gradient( 43deg, rgb(0,0,0) 0%, rgb(21,9,49) 100%);
+  box-shadow: 0px 15px 14px 0px rgba(35, 22, 47, 0.11);
+    border-radius: 10px;
+    margin-left: 13px;
+    right: 13px;
+    margin-top: 40px;
+    width: 97%;
+    height: 38%;
+}

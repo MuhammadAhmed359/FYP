@@ -1,0 +1,167 @@
+.navbar {
+  border-radius: 10px;
+  /* Adjust the value as needed */
+  width: 98%;
+  top: 10px;
+  left: 13px;
+  background-color: #0f0f0f;
+  color: #7b7b7b;
+
+
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-family: "Lato";
+  color: #8052dd;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  margin-left: 10px;
+
+
+
+}
+#dropdown-item-button{
+  background-color: #1c1b1e;
+  border: none;
+  border-radius: 8px;
+  height: 42px;
+  width: 140%;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Lato";
+}
+.dropdown-button {
+  margin-right: 45px;
+  /* Hi ADMIN BUTTON FOR USER NAME*/
+  /* border-radius: 10%; */
+  /* Apply border radius */
+  /* opacity: 2.5; */
+  /* Apply opacity */
+  /* background-color: red */
+  /* color: red; */
+}
+
+
+.dropdown-menu {
+  padding: 0 !important;
+  margin:0 !important;
+  height: 38px;
+  max-width: 140% !important;
+  min-width: 140% !important;
+}
+
+
+.navbar-brand:hover {  
+  color: #8052dd;
+}
+
+/* navbar.css */
+/* Style for the search bar */
+.form-control {
+  width: 92%;
+  background-color: #1c1b1e;
+  border: none;
+  border-radius: 10px;
+  /* box-shadow: 0px 6px 14px 0px rgba(35, 22, 47, 0.14); */
+  height: 42px;
+
+}
+
+
+.form-control::placeholder {
+  color: #8a8a8a;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  /* Change the placeholder color to gray */
+}
+.menu {
+  margin: 0 !important;
+  padding:0 !important;
+  justify-content: center;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0 !important;
+  padding:0 !important;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0px 43px;
+  /* Adjust the gap between menu items as needed */
+  /* text-decoration: none; */
+  /* color: grey; */
+  color: #7b7b7b;
+  /* Adjust the color as needed */
+  font-size: 18px;
+  /* Adjust the font size as needed */
+  font-family: "lato";
+  font-weight: bold;
+  margin-top: 10px;
+  list-style: none;
+
+}
+.menu li a{
+  text-decoration: none;
+  color: #7b7b7b;
+
+}
+.menu li a:hover{
+  color: #8052dd;
+}
+
+
+
+.hamburger-react {
+  margin-left: 15px; /* Adjust the value as needed */
+}
+
+
+/* navbar.css  phone*/
+
+@media (max-width: 768px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu ul {
+    padding-left: 0;
+  }
+
+  .menu ul li {
+    margin-bottom: 10px;
+  }
+
+  .menu ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  .dropdown {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 769px) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .menu ul {
+    padding-left: 0;
+    margin-right: 20px;
+  }
+
+  .dropdown {
+    margin-left: auto;
+  }
+}

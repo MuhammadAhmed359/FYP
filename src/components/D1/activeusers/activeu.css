@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#aubg {
+    background-image: -moz-linear-gradient(33deg, rgb(11, 10, 13) 0%, rgb(35, 23, 68) 100%);
+    background-image: -webkit-linear-gradient(33deg, rgb(11, 10, 13) 0%, rgb(35, 23, 68) 100%);
+    box-shadow: 0px 21px 29px 0px rgba(35, 22, 47, 0.25);
+    position: absolute;
+    border-radius: 10px;
+    width: 22%;
+    height: 35.2%;
+    left: calc(100% - 22% - 15px); /* Adjusted left position */
+    top: 54%; /* Fixed top position */
+    justify-content: center;
+    display: block;
+}
+
+#au1 {
+    background-color: #2e2547;
+    width: 80%;
+    margin-top: 20px;
+    height: 12%;
+    border-radius: 10px;
+    margin-left: 30px;
+    display: flex;
+}
+
+#au1 h1 {
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin: 12px auto;
+}
+.activeUWrapper {
+    margin-left: 12px;
+    margin-top: 30px;
+    margin-right: 12px;
+    max-height: 260px;
+    overflow-y: auto;
+    color: #2e2547;
+    border: none; 
+    /* border: 2px solid red; */
+  }
+  
+  /* Define scrollbar colors using CSS custom properties */
+  .activeUWrapper::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  .activeUWrapper::-webkit-scrollbar-thumb {
+    background-color: #582fd1; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners of the thumb */
+  }
+  
+  .activeUWrapper::-webkit-scrollbar-track {
+    background-color: #0f0f0f; /* Color of the scrollbar track */
+    border-radius: 10px;
+  }
+  
+ 
+  
+  #activeU {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .activeusersbackground {
+    width: calc(25% - 20px);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .activeusersbackground span {
+    color: white;
+    font-family: "Lato";
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 12px;
+    text-align: center;
+  }
+  
+  .activeusericons {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 5px;
+  }

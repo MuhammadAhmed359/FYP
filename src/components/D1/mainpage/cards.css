@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#menu{
+  display: flex;
+  margin-top: 20px;
+  height: 8vh;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 70px;
+  margin-top: 30px;
+}
+#h1{
+  color: white;
+  justify-content: center;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+#h2{
+  color: white;
+  justify-content: center;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+#h3{
+  color: white;
+  justify-content: center;
+  font-family: "Lato";
+  font-size: 20px;
+  margin-right: 80px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+#cards{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.front{
+    width: 260px;
+    height: 290px;
+    background-color: #16151b;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 15px 54px 0px rgba(35, 22, 47, 0.11);
+}
+.back{
+    width: 260px;
+    height: 290px;
+    /* background-color: red; */
+    background-color: #16151b;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 15px 54px 0px rgba(35, 22, 47, 0.11);
+}
+#g2{
+  width: 260px;
+    height: 290px;
+    display: block;
+    /* padding: 10px; */
+  }
+  #g2-1{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 29%;
+    display: flex;
+    margin-bottom: 15px;
+}
+.sgraph{
+  /* border: 2px solid white; */
+  width: 25%;
+  height: 100%;
+  display: flex;
+  margin-bottom: 15px;
+}
+#perentage{
+  font-size: 16px;
+  font-family: "Lato";
+  /* font-weight: bold; */
+  color: white;
+  text-align: left;
+  margin: auto;
+  margin-right: 15px;
+}
+#g2-2{
+  /* border: 2px solid yellow; */
+  width: 100%;
+  height: 29%;
+  display: flex;
+  margin-bottom: 15px;
+
+}
+#g2-3{
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 29%;
+  display: flex;
+  margin-bottom: 15px;
+
+}
+#perentage1{
+  font-size: 16px;
+  font-family: "Lato";
+  /* font-weight: bold; */
+  color: white;
+  text-align: left;
+  margin: auto;
+  margin-right: 30px;
+}
+#allgraph{
+    /* border: 2px solid green; */
+  width: 100%;
+  height: 82%;
+  display: block;
+  margin-bottom: 15px;
+}
+#totalperentage{
+  font-size: large;
+  font-family: "Lato";
+  color: white;
+  text-align: left;
+  /* margin-top: 10px; */
+  margin-bottom: 20px;
+  margin-left: 45px;
+}

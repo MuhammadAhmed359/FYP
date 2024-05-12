@@ -1,0 +1,33 @@
+.navbar {
+    border-radius: 10px;
+    width: 98%;
+    top: 10px;
+    left: 13px;
+    background-color: #0f0f0f;
+    color: #7b7b7b;
+  }
+  
+  .navbar-brand {
+    font-size: 30px;
+    font-family: "Lato";
+    color: #8052dd;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  
+  
+  .dropdown-menu {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 38px;
+    max-width: 140% !important;
+    min-width: 140% !important;
+  }
+  
+  .navbar-brand:hover {
+    color: #8052dd;
+  }
+  

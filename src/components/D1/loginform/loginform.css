@@ -1,0 +1,125 @@
+*{
+  margin: 0;  
+   padding: 0; 
+
+}
+
+
+
+#circle-1{
+  background-color: #582fd1;
+  position: absolute;
+  left: 80%;
+  top: -32%;
+  width: 380px;
+  height: 380px;
+  filter: blur(240.1px);
+  border-radius: 50%;
+}
+#circle-2{
+  background-color: #582fd1;
+  position: absolute;
+  top: 95%;
+  width: 380px;
+  height: 380px;
+  filter: blur(240.1px);
+  border-radius: 50%;
+}
+
+.login-page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #0a0a0b;
+  overflow: hidden;
+}
+
+.form {
+  background-image: -moz-linear-gradient( 43deg, rgb(0,0,0) 0%, rgb(21,9,49) 100%);
+  background-image: -webkit-linear-gradient( 43deg, rgb(0,0,0) 0%, rgb(21,9,49) 100%);
+  box-shadow: 0px 15px 14px 0px rgba(35, 22, 47, 0.11);
+  margin: 110px auto;
+  padding: 50px;
+  width: 40%;
+  height: 25rem;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden ;
+}
+/* .form::before{
+  content: '';
+  position: absolute;
+  width: 170px;
+  height: 100%;
+  background: linear-gradient(#00ccff, #d500f9);
+  animation: rotate 4s linear infinite;
+
+
+}
+
+
+.form::after{
+  content: '';
+  position: absolute;
+  inset: 5px;
+  border-radius: 10px;
+} */
+
+@keyframes rotate{
+  form{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+
+.logo-container h1{  
+  color: #582fd1;
+  justify-content: center;
+  text-align: center;
+  font-size: 38px;
+  font-family: "Lato";
+  font-weight: bold;
+}
+
+
+
+.form input {
+  font-family: "Lato";
+  font-weight: bold;  
+  outline: none;
+  background-color: #211a32;
+  width: 100%;
+  border: 0;
+  color: white;
+  border-radius: 10px;
+  margin: 15px auto;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.form button {
+  text-transform: uppercase;
+  outline: 0;
+  margin-top: 15px;
+  width: 100%;
+background-color: #8052dd;
+border-radius: 10px;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-family: "Lato";
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #5D3FD3;
+}
